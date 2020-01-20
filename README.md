@@ -1,6 +1,8 @@
 # Targeted-Marketing-Strategy
 ![](https://d2qhfytuodj4jf.cloudfront.net/dev/wp-content/uploads/2014/07/09211527/targeted-marketing1.png)
 
+This repository contains the files prepared for Marketing Analytics class project completed under the guidance of [Prof. Garret Sonnier](https://www.mccombs.utexas.edu/Directory/Profiles/Sonnier-Garrett).
+
 ### Data 
 This project uses publicly available [online retail dataset](https://archive.ics.uci.edu/ml/datasets/online+retail) from UCI Machine Learning repository. 
 
