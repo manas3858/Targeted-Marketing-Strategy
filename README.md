@@ -1,9 +1,6 @@
 # Targeted-Marketing-Strategy
 ![](https://d2qhfytuodj4jf.cloudfront.net/dev/wp-content/uploads/2014/07/09211527/targeted-marketing1.png)
 
-This project follows the below mentioned approach approach;
-1. Data cleaning - remove 
-
 ### Data 
 This project uses publicly available [online retail dataset](https://archive.ics.uci.edu/ml/datasets/online+retail) from UCI Machine Learning repository. 
 
@@ -18,3 +15,10 @@ Attributes:
 * UnitPrice: Unit price. Numeric, Product price per unit in sterling.
 * CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 * Country: Country name. Nominal, the name of the country where each customer resides.
+
+### Approach
+1. Customer RFM segmentation using first 6 months (Dec’10 – May’11) data using k-means clustering to get R,F and M clusters for each customer
+2. Analyze the customer movement across different RFM clusters in the first and last 6 months and identify the target segment
+3. Recommend products performing market basket analysis maximize sales
+
+Detailed approach is discussed in the presentation deck and the python files has the code used for this project.
